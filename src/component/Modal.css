@@ -1,0 +1,21 @@
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.model{
+    padding: 15px;
+    position: fixed;
+    top: 30vh;
+    left: 30%;
+    width: 40%;
+    z-index: 100;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 15px;
+}
